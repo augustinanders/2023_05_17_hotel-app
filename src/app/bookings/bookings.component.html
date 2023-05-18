@@ -9,7 +9,7 @@
       <small>{{ booking.id }}</small>
     </div>
     <p class="mb-1">
-      {{ booking.startDate | date : "shortDate" }} -
+      {{ booking.startDate | date : "dd/MM/yyyy" }} -
       {{ booking.endDate | date : "dd/MM/yyyy" }}
     </p>
     <small>Room: {{ booking.roomNumber }}</small>
